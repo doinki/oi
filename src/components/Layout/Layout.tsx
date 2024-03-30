@@ -6,7 +6,7 @@ export function Layout() {
   return (
     <>
       <Header />
-      <main>
+      <main className="overflow-hidden px-16">
         <Outlet />
       </main>
     </>
