@@ -19,6 +19,9 @@ devDependencies:
   '@changesets/cli':
     specifier: ^2.27.1
     version: 2.27.1
+  '@fontsource-variable/noto-sans-kr':
+    specifier: ^5.0.5
+    version: 5.0.5
   '@types/react':
     specifier: ^18.2.73
     version: 18.2.73
@@ -1153,6 +1156,10 @@ packages:
   /@eslint/js@8.57.0:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /@fontsource-variable/noto-sans-kr@5.0.5:
+    resolution: {integrity: sha512-RGwy/mMP9tIJDpVslAdQGnIukDsSm4ojck1KwwKYMZUrDwN/CPC4sWXn/4oMdcYa5C1+aIlbuqKT6rQqozrkyw==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.14:
