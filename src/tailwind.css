@@ -11,4 +11,14 @@
   html {
     @apply bg-primary text-accent;
   }
+
+  noscript {
+    @apply grid h-screen place-content-center break-keep px-6 text-xl;
+  }
+
+  @supports (height: 100svh) {
+    noscript {
+      @apply h-svh;
+    }
+  }
 }
