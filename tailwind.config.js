@@ -7,6 +7,9 @@ export default {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {
+      borderColor: {
+        DEFAULT: 'var(--color-accent)',
+      },
       colors: {
         accent: 'var(--color-accent)',
         primary: 'var(--color-primary)',
